@@ -1,0 +1,79 @@
+.root{
+    --morado: rgb(125, 35, 163);
+    --aqua: rgb(108, 243, 216);
+}
+.work{
+    text-decoration: double;
+}
+h1{
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-banner{
+    margin-top: 0 0;
+    display:flex;
+    flex-direction: column;
+    
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/001/969/non_2x/abstract-technology-blue-speed-neon-light-effect-on-black-background-illustration-free-vector.jpg');
+    background-size: auto;
+    height: 500px;
+    justify-content: center;
+    background-repeat: fill;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.tail{
+    text-decoration: underline;
+    color: aqua;
+}
+.cuadro{
+    background-color: darkblue;
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.ultimo{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.boton{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 30px;
+    width: 100px;
+    border-radius: 0%;
+    background-color: blue;
+    color: white;
+}
+
+.etiqueta{
+    text-align: left;
+    position: top;
+    color: white;
+}
+.acceso{
+    text-align: right;
+}
+
+.imagen{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    background-color: var(--morado);
+}
+.img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
