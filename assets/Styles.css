@@ -30,10 +30,11 @@ h1{
 }
 .phone{
     background-image: url('./img/movil.jpg');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: auto;
+    width: 400px;
+    height: 800px;
+    border: none;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 .tail{
     text-decoration: underline;
