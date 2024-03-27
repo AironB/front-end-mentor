@@ -17,6 +17,10 @@ h1{
     
     background-image: url('https://static.vecteezy.com/system/resources/previews/013/001/969/non_2x/abstract-technology-blue-speed-neon-light-effect-on-black-background-illustration-free-vector.jpg');
     background-size: auto;
+    clip-path: ellipse(100% 80% at 50% 0%);
+    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     height: 500px;
     justify-content: center;
     background-repeat: fill;
@@ -24,9 +28,31 @@ h1{
     flex-direction: column;
     flex-wrap: nowrap;
 }
+.phone{
+    background-image: url('./img/movil.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: auto;
+}
 .tail{
     text-decoration: underline;
-    color: aqua;
+    text-decoration: color(srgb red green rgb(31, 31, 66));
+    
+}
+.secciones {
+    width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+    border-color: black;
+    border-style:groove;
+	/*background:;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%
 }
 .cuadro{
     background-color: darkblue;
